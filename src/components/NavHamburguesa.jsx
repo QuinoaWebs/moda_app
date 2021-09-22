@@ -7,7 +7,7 @@ import Videos from './pages/Videos';
 import Adicional from './pages/InfoAdicional';
 import Contacto from './pages/Contacto';
 import Blog from './pages/Blog';
-import NotFound from './pages/NotFound';
+
 
 class NavHamburguesa extends Component{
   
@@ -89,10 +89,7 @@ class NavHamburguesa extends Component{
 
                         </Route>
 
-                        <Route path="*">
-                            <NotFound nombre="404 Not Found" />
-
-                        </Route>
+                   
 
                     </Switch>
                     
