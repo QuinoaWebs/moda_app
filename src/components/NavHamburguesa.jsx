@@ -58,39 +58,41 @@ class NavHamburguesa extends Component{
                  </nav>
 
                     <Switch>
-                        <Route exact path="/">
-                            <Index nombre="Home" />
-
-                        </Route>
-                        <Route exact path="/proyectos">
+                     
+                        <Route  path="/proyectos">
                             <IndexProyecto nombre="Proyectos" />
 
                         </Route>
-                        <Route exact path="/fotos">
+                        <Route  path="/fotos">
                             <Fotos nombre="Fotos" />
 
                         </Route>
-                        <Route exact path="/videos">
+                        <Route  path="/videos">
                             <Videos nombre="Videos" />
 
                         </Route>
-                        <Route exact path="/adicional">
+                        <Route  path="/adicional">
                             <Adicional nombre="Adicional" />
 
                         </Route>
-                        <Route exact path="/blog">
+                        <Route  path="/blog">
                             <Blog nombre="Blog" />
 
                         </Route>
-                        <Route exact path="/contacto">
+                        <Route  path="/contacto">
                             <Contacto nombre="Contacto" />
 
                         </Route>
 
-                        {/* <Route path="*">
+                        <Route path="/">
+                            <Index nombre="Home" />
+
+                        </Route>
+
+                        <Route path="*">
                             <NotFound nombre="404 Not Found" />
 
-                        </Route> */}
+                        </Route>
 
                     </Switch>
                     
