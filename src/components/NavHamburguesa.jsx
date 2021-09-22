@@ -87,10 +87,10 @@ class NavHamburguesa extends Component{
 
                         </Route>
 
-                        <Route path="*">
+                        {/* <Route path="*">
                             <NotFound nombre="404 Not Found" />
 
-                        </Route>
+                        </Route> */}
 
                     </Switch>
                     
