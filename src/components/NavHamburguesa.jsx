@@ -58,6 +58,10 @@ class NavHamburguesa extends Component{
                  </nav>
 
                     <Switch>
+                        <Route exact path="/">
+                            <Index nombre="Home" />
+
+                        </Route>
                         <Route exact path="/proyectos">
                             <IndexProyecto nombre="Proyectos" />
 
@@ -82,12 +86,8 @@ class NavHamburguesa extends Component{
                             <Contacto nombre="Contacto" />
 
                         </Route>
-                        <Route exact path="/">
-                            <Index nombre="Home" />
 
-                        </Route>
-
-                        <Route path="/">
+                        <Route path="*">
                             <NotFound nombre="404 Not Found" />
 
                         </Route>
