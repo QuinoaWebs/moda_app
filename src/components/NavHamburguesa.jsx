@@ -84,7 +84,7 @@ class NavHamburguesa extends Component{
 
                         </Route>
 
-                        <Route path="/">
+                        <Route path="/home">
                             <Index nombre="Home" />
 
                         </Route>
