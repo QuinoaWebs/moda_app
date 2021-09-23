@@ -92,7 +92,7 @@ class NavHamburguesa extends Component{
 
                         <Route path = "*">
                             <NotFound nombre= "Not Found" />
-                            {/* <Index nombre="Home" /> */}
+                           
                         </Route>
 
                     
