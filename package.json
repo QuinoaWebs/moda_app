@@ -2,7 +2,7 @@
     "name": "moda-app",
     "version": "0.1.0",
     "private": true,
-  
+    "homepage": "https://QuinoaWebs.github.io/moda_app",
     "dependencies": {
         "@popperjs/core": "^2.9.2",
         "@testing-library/jest-dom": "^5.11.4",
@@ -22,7 +22,8 @@
         "web-vitals": "^1.0.1"
     },
     "scripts": {
-      
+        "predeploy":"npm run build",
+        "deploy":"gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
@@ -45,5 +46,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "gh-pages": "^3.2.3"
     }
 }

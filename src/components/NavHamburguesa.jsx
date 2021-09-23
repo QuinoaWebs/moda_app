@@ -90,7 +90,7 @@ class NavHamburguesa extends Component{
 
                         </Route>
 
-                        <Route path = "*">
+                        <Route path = "/">
                             <NotFound nombre= "Not Found" />
                         </Route>
 
