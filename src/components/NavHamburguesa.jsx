@@ -7,6 +7,7 @@ import Videos from './pages/Videos';
 import Adicional from './pages/InfoAdicional';
 import Contacto from './pages/Contacto';
 import Blog from './pages/Blog';
+import NotFound from './pages/NotFound';
 
 
 class NavHamburguesa extends Component{
@@ -59,37 +60,41 @@ class NavHamburguesa extends Component{
 
                     <Switch>
                      
-                        <Route  path="/proyectos">
+                        <Route exact  path="/proyectos">
                             <IndexProyecto nombre="Proyectos" />
 
                         </Route>
-                        <Route  path="/fotos">
+                        <Route exact path="/fotos">
                             <Fotos nombre="Fotos" />
 
                         </Route>
-                        <Route  path="/videos">
+                        <Route exact  path="/videos">
                             <Videos nombre="Videos" />
 
                         </Route>
-                        <Route  path="/adicional">
+                        <Route exact  path="/adicional">
                             <Adicional nombre="Adicional" />
 
                         </Route>
-                        <Route  path="/blog">
+                        <Route exact  path="/blog">
                             <Blog nombre="Blog" />
 
                         </Route>
-                        <Route  path="/contacto">
+                        <Route exact  path="/contacto">
                             <Contacto nombre="Contacto" />
 
                         </Route>
 
-                        <Route path="/">
+                        <Route exact path="/">
                             <Index nombre="Home" />
 
                         </Route>
 
-                   
+                        <Route path = "*">
+                            <NotFound nombre= "Not Found" />
+                        </Route>
+
+                    
 
                     </Switch>
                     
