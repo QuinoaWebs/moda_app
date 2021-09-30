@@ -11,6 +11,7 @@
 /* ================================== css index ==================================== */
 .contenedor{
     margin-top: 1px;
+    min-height: 100vh;
 }
 
 /*=================================== css not found =================================*/
@@ -155,8 +156,8 @@ body {
 .footer {
     background-color: green;
     font-family: 'Dancing Script', cursive;
-    font-size: 25px;
-    margin-top: -16px;
+    font-size: 1.5rem;
+    /* margin-top: -24px; */
 }
 
 .idiomas {
@@ -340,7 +341,7 @@ body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     padding: 20px;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 .legal a {
@@ -360,7 +361,7 @@ body {
 }
 
 .header {
-    height: 100px;
+    /* height: 100px; */
     background-color: transparent;
 }
 
@@ -819,7 +820,8 @@ figure {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 250px;
+    top: 120px;
+    min-height: 20rem;
 }
 
 @media screen and (min-width:768px) {

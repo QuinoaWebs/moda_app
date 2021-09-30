@@ -74,6 +74,8 @@ const Index = (props) => {
                       </figure>
                       <p className="descripcion" id="descripcion">Descripción: Nunc pellentesque lectus non lacus ultricies efficitur. Quisque felis elit, auctor ut sollicitudin eget, ultrices et odio. Donec mauris nisi, rhoncus ac tempor ut, hendrerit sit amet lectus. Mauris a placerat quam. Nunc ac diam
                          metus. Vestibulum consectetur laoreet mi. Vestibulum efficitur dui eros, sodales dignissim risus facilisis in. Nunc porttitor a metus non ultricies. Aliquam congue porta risus non malesuada.</p>
+
+                   
                   
                     </div> 
                 </figure>
